@@ -30,7 +30,7 @@ namespace CustomerManagement
             customerManager.Delete(customer4);
             customerManager.Delete(customer7);
 
-            Customer[] customers = new Customer[] { customer1, customer2, customer3 };
+            Customer[] customers = new Customer[] { customer1, customer2, customer3,customer4,customer5,customer6,customer7,customer8 };
 
             foreach (Customer customer in customers)
             {
